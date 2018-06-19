@@ -1,0 +1,6 @@
+zuul:
+  servletPath: /zuul_proxy
+  routes:
+    proxy-service:
+      path: /proxy/**
+      url: http://cup.ttyingqiu.com
